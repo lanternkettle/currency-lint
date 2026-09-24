@@ -1,0 +1,16 @@
+{
+  "name": "currency-lint",
+  "version": "0.1.0",
+  "description": "a linter that flags risky currency amount handling in source files",
+  "type": "module",
+  "main": "dist/linter.js",
+  "types": "dist/linter.d.ts",
+  "bin": {
+    "currency-lint": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "author": "lanternkettle"
+}
