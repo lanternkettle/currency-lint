@@ -74,6 +74,15 @@ the ones already there.
 | `ambiguous-decimal-separator` | numbers with repeated dot-separated groups of three digits |
 | `bare-currency-symbol` | a currency symbol with no ISO 4217 code anywhere on the line |
 
+## tests
+
+```
+npm test
+```
+
+This compiles with `tsc` and runs `dist/linter.test.js` with the built-in
+`node --test` runner, so there is nothing to install beyond the compiler.
+
 ## status
 
 Early skeleton. The rule set is intentionally small; see the project
